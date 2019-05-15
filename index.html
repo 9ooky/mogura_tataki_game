@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>モグラ叩きゲーム</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="app-header">
+    <h1 class="app-title">
+      <img src="https://admiring-bose-b87e16.netlify.com/title.png" class="title-image" alt="もぐらたたきゲーム">
+    </h1>
+    <div class="play-info">
+      <div class="score-board">
+        SCORE
+        <output class="score">0</output>
+      </div>
+    </div>
+    <div class="progress"></div>
+  </header>
+  <div class="grass">
+    <ul class="hole-container">
+      <li class="hole"></li>
+      <li class="hole"></li>
+      <li class="hole"></li>
+      <li class="hole"></li>
+      <li class="hole"></li>
+      <li class="hole"></li>
+    </ul>
+    <button class="start-btn">START</button>
+    <div class="result-wrap">
+      <div class="result-inner">
+        <p class="result-label">あなたのスコアは</p>
+        <div class="result"></div>
+        <small class="result-unit">点です！</small>
+        <img src="https://admiring-bose-b87e16.netlify.com/mole_face.png" class="result-image" alt="もぐら">
+        <button class="retry-btn">RETRY</button>
+      </div>
+    </div>
+  </div>
+  <script src="/js/main.js"></script>
+</body>
+</html>
